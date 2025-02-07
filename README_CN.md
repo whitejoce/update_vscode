@@ -1,13 +1,14 @@
-- # VSCode 自动更新脚本
-*Generated and optimized by GPT-4o*
+- # VSCode 更新脚本
+  
+> *Generated and optimized by GPT-4o*
 
 ## 介绍
 本脚本用于自动更新 VSCode，主要功能如下：
 
 1. **检测 VSCode 是否正在运行**：如果 VSCode 处于运行状态，脚本会提示用户手动关闭 VSCode 并保存代码后再继续。
 2. **自动查找最新版本的 VSCode 安装包**：在当前目录下寻找最新的 `VSCode-win32-x64-*.zip` 文件。
-3. **删除旧版本 VSCode**：清理 `D:\VSCode` 目录，防止冲突。
-4. **解压新版本 VSCode**：将找到的安装包解压到 `D:\VSCode`，完成更新。
+3. **删除旧版本 VSCode**：清理 `VSCode安装目录` ，防止冲突。
+4. **解压新版本 VSCode**：将找到的安装包解压到 `VSCode安装目录`，完成更新。
 
 ## 使用方法
 
@@ -24,6 +25,6 @@
    - 若遇到安装问题，可咨询 LLM 进行故障排查。
 
 ## 注意事项
-- 确保`VScode安装目录`可访问，否则可能导致安装失败。
+- 确保 `VScode安装目录` 可访问，否则可能导致安装失败。
 - 请勿在 VSCode 运行时更新，以免文件被占用。
 - 若 `VSCode-win32-x64-*.zip` 未找到，脚本会终止运行。
