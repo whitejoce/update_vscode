@@ -2,6 +2,8 @@
 
 [中文说明文档](https://github.com/whitejoce/update_vscode/edit/main/README_CN.md)
 
+*Generated and optimized by GPT-4o*
+
 ## Introduction
 This script is designed to automate the update process of VSCode. It includes the following features:
 
@@ -19,8 +21,15 @@ This script is designed to automate the update process of VSCode. It includes th
    - If VSCode is running, the script will prompt you to close it.
    - Once VSCode is closed, press any key to continue the update.
 4. **Wait for the installation to complete**: The script will automatically extract the package and pause at the end to prevent the window from closing immediately.
+5. **Ask a Friendly AI (AFAI)**:
+   - GPT can help analyze VSCode version updates.
+   - You can optimize or regenerate the `update_vscode.bat` script using GPT for better compatibility and automation.
+   - If you encounter installation problems, GPT can assist in troubleshooting.
 
 ## Notes
-- Ensure that `D:\VSCode` is accessible, or the installation may fail.
+- Ensure that `VSCode installation directory` is accessible, or the installation may fail.
 - Do not update while VSCode is running to avoid file access conflicts.
 - If no `VSCode-win32-x64-*.zip` file is found, the script will terminate.
+
+
+
