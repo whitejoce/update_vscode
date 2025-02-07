@@ -1,16 +1,16 @@
 # VSCode Auto-Update Script
 
-[中文说明文档](https://github.com/whitejoce/update_vscode/blob/main/README_CN.md)
-
-*Generated and optimized by GPT-4o*
+[中文文档](https://github.com/whitejoce/update_vscode/blob/main/README_CN.md)
+ 
+> *Generated and optimized by GPT-4o*
 
 ## Introduction
 This script is designed to automate the update process of VSCode. It includes the following features:
 
 1. **Checks if VSCode is running**: If VSCode is open, the script prompts the user to close it and save their work before proceeding.
 2. **Finds the latest VSCode package**: The script scans the current directory for the most recent `VSCode-win32-x64-*.zip` file.
-3. **Removes the old VSCode installation**: The script deletes the `D:\VSCode` directory to prevent conflicts.
-4. **Extracts the new version**: The latest package is extracted to `D:\VSCode`, completing the update process.
+3. **Removes the old VSCode installation**: The script deletes the `VSCode installation directory` to prevent conflicts.
+4. **Extracts the new version**: The latest package is extracted to `VSCode installation directory`, completing the update process.
 
 ## Usage
 
