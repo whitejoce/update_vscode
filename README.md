@@ -1,6 +1,6 @@
 # VSCode Auto-Update Script
 
-[中文说明文档](https://github.com/whitejoce/update_vscode/edit/main/README_CN.md)
+[中文说明文档](https://github.com/whitejoce/update_vscode/blob/main/README_CN.md)
 
 *Generated and optimized by GPT-4o*
 
