@@ -1,5 +1,7 @@
 # VSCode Auto-Update Script
 
+[中文说明文档](https://github.com/whitejoce/update_vscode/edit/main/README_CN.md)
+
 ## Introduction
 This script is designed to automate the update process of VSCode. It includes the following features:
 
