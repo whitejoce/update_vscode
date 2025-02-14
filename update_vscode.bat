@@ -1,8 +1,11 @@
 @echo off
 setlocal enabledelayedexpansion
 
-:: Set VSCode installation directory
+:: Set VSCode installation directory, end with a backslash: "C:\Program Files\VSCode\"
 set INSTALL_DIR=
+
+:: Set the current script directory as the working directory: %~dp0 , end with a backslash (e.g., "D:\Downloads\")
+set CUR_DIR=%~dp0
 
 :: Check if INSTALL_DIR is set
 if "%INSTALL_DIR%"=="" (
@@ -10,9 +13,6 @@ if "%INSTALL_DIR%"=="" (
     pause
     exit /b
 )
-
-:: Set the current script directory as the working directory£º%~dp0
-set CUR_DIR=%~dp0
 
 :: Check if VSCode is running
 :check_vscode
