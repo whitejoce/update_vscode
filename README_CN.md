@@ -2,6 +2,11 @@
   
 > *Generated and optimized by GPT-4o*
 
+## 使用 Scoop 管理 VSCode
+
+除了手动更新 VSCode，您还可以使用 [Scoop](https://github.com/ScoopInstaller/Scoop) 来自动化 VSCode 的安装和更新。
+> Scoop 是一个 Windows 包管理工具，能够简化软件的安装、更新和卸载。
+
 ## 介绍
 本脚本用于自动更新 VSCode，主要功能如下：
 
