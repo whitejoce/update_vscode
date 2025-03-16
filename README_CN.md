@@ -1,4 +1,4 @@
-- # VSCode 更新脚本
+# VSCode 更新脚本
   
 > *Generated and optimized by GPT-4o*
 
